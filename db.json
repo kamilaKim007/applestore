@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Iphone 13 Pro",
+      "price": 1100,
+      "memory": 256,
+      "image": "https://th.bing.com/th/id/OIP.JJKJX9HOg7CDK__XAcS9eQHaHa?w=177&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 2,
+      "title": "Iphone 12 Pro",
+      "price": 1000,
+      "memory": 256,
+      "image": "https://th.bing.com/th/id/OIP.1EkDbhtuD0YW-h1G3XowXAHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": 4,
+      "title": "Iphone 10",
+      "price": 800,
+      "memory": 256,
+      "image": "https://th.bing.com/th/id/OIP.6fh_QC4M7_9O3O5gg1qb7wHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "title": "err",
+      "price": "344",
+      "memory": "245",
+      "image": "https://th.bing.com/th/id/OIP.6fh_QC4M7_9O3O5gg1qb7wHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7",
+      "id": 5
+    },
+    {
+      "title": "er",
+      "price": "455",
+      "memory": "23",
+      "image": "wrgfeg",
+      "id": 6
+    },
+    {
+      "title": "err",
+      "price": "24244",
+      "memory": "2342",
+      "image": "wrgfeg",
+      "id": 7
+    }
+  ]
+}
