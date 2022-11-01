@@ -3,44 +3,66 @@
     {
       "id": 1,
       "title": "Iphone 13 Pro",
-      "price": 1100,
+      "price": 1300,
       "memory": 256,
-      "image": "https://th.bing.com/th/id/OIP.JJKJX9HOg7CDK__XAcS9eQHaHa?w=177&h=180&c=7&r=0&o=5&pid=1.7"
+      "image": "https://th.bing.com/th/id/OIP.JJKJX9HOg7CDK__XAcS9eQHaHa?w=177&h=180&c=7&r=0&o=5&pid=1.7",
+      "category": "Iphone's"
     },
     {
       "id": 2,
       "title": "Iphone 12 Pro",
+      "price": 1100,
+      "memory": 256,
+      "image": "https://th.bing.com/th/id/OIP.1EkDbhtuD0YW-h1G3XowXAHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7",
+      "category": "Iphone's"
+    },
+    {
+      "id": 3,
+      "title": "Iphone 11",
       "price": 1000,
       "memory": 256,
-      "image": "https://th.bing.com/th/id/OIP.1EkDbhtuD0YW-h1G3XowXAHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7"
+      "image": "https://th.bing.com/th/id/OIP.wt-gnl-EjDw6D6ibXCcIGwHaHa?w=156&h=187&c=7&r=0&o=5&pid=1.7",
+      "category": "Iphone's"
     },
     {
-      "id": 4,
       "title": "Iphone 10",
-      "price": 800,
-      "memory": 256,
-      "image": "https://th.bing.com/th/id/OIP.6fh_QC4M7_9O3O5gg1qb7wHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7"
+      "price": 900,
+      "memory": 186,
+      "image": "https://th.bing.com/th/id/OIP.6fh_QC4M7_9O3O5gg1qb7wHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7",
+      "id": 4,
+      "category": "Iphone's"
     },
     {
-      "title": "err",
-      "price": "344",
-      "memory": "245",
-      "image": "https://th.bing.com/th/id/OIP.6fh_QC4M7_9O3O5gg1qb7wHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7",
+      "title": "Watch",
+      "price": "345",
+      "memory": "34",
+      "image": "https://th.bing.com/th/id/OIP.i_arJntHB7J_8FG9XW_rTAHaHa?w=190&h=190&c=7&r=0&o=5&pid=1.7",
+      "category": "Watches",
       "id": 5
     },
     {
-      "title": "er",
-      "price": "455",
-      "memory": "23",
-      "image": "wrgfeg",
+      "title": "Watch",
+      "price": "345",
+      "memory": "45",
+      "image": "https://th.bing.com/th/id/OIP.JbV9-_5hOK0JHtVKi1ByQwHaIu?w=165&h=194&c=7&r=0&o=5&pid=1.7",
+      "category": "Watches",
       "id": 6
     },
     {
-      "title": "err",
-      "price": "24244",
-      "memory": "2342",
-      "image": "wrgfeg",
+      "title": "сверх-ультра мощный пульт",
+      "price": "2700",
+      "memory": "300",
+      "image": "data:image/jpeg;base64,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",
+      "category": "Accessories",
       "id": 7
+    },
+    {
+      "title": "Power Supply",
+      "price": "650",
+      "memory": "345",
+      "image": "https://th.bing.com/th/id/OIP.oHdCOvkBkdNg1aNFPWze4wHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7",
+      "category": "Chargers adapters",
+      "id": 8
     }
   ]
 }

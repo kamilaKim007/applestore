@@ -61,33 +61,24 @@
                     <h2 class="products__title">
                         Check also
                     </h2>
+                    <ul class="products-list">
+                        <li class="products-item">Accessories</li>
+                        <li class="products-item">Chargers adapters</li>
+                        <li class="products-item">Iphone's</li>
+                        <li class="products-item">Watches</li>
+                        <li class="products-item products-item-active">All</li>
+                    </ul>
                     <p class="products__see">
-                    
-                           
-                    
                         <span class="products__see-text">See All</span> 
                         <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.7741 6.59406L1.61428 11.7537C1.28605 12.0821 0.753887 12.0821 0.425819 11.7537C0.097725 11.4256 0.097725 10.8935 0.425819 10.5654L4.99146 5.99991L0.425952 1.43457C0.0978577 1.10635 0.0978577 0.574263 0.425952 0.24617C0.754046 -0.0820565 1.28618 -0.0820565 1.61441 0.24617L6.77423 5.4059C6.93828 5.57002 7.02021 5.7849 7.02021 5.99989C7.02021 6.21498 6.93812 6.43002 6.7741 6.59406Z" fill="#1890FF"></path>
                         </svg>
                              <label>
-                                <input class="input-category", type="radio", name="category", value="Accessories">
-                                Accessories
-                            </label>
-                            <label>
-                                <input class="input-category", type="radio", name="category", value="Chargers adapters">
-                                Chargers adapters
-                            </label>
-                            <label>
-                                <input class="input-category", type="radio", name="category", value="Iphone's">
-                                Iphone's
-                            </label>
-                            <label>
-                                <input class="input-category", type="radio", name="category", value="Watches">
-                                Watches
-                            </label>
                     </p>
-                    
                 </div>
+
+
+                
                 <div class="products__row">
                     <!--  -->
                    <!-- <div class="products__card">
@@ -123,18 +114,41 @@
             </div>
         </div>
     </section>
+
+
     <div class="overlay">
         <form class="form">
             <div class="form__close">X</div>
-            <input required="" name="title" type="text" class="form__input" placeholder="Product name">
-            <input required="" name="price" type="number" class="form__input" placeholder="Product price">
-            <input required="" name="memory" type="number" class="form__input" placeholder="Product memory">
-            <input required="" name="image" type="text" class="form__input" placeholder="Product image">
-            <input required name="category" type="text" class="form_inp" placeholder="Product category">
+            <input required name="title" type="text" class="form__input" placeholder="Product name">
+            <input required name="price" type="number" class="form__input" placeholder="Product price">
+            <input required name="memory" type="number" class="form__input" placeholder="Product memory">
+            <input required name="image" type="text" class="form__input" placeholder="Product image">
+            <select class="form__input",name="category">
+                <option value="Accessories">Accessories</option>
+                <option value="Chargers adapters">Chargers adapters</option>
+                <option value="Iphone's">Iphone's</option>
+                <option value="Watches">Watches</option>
+            </select>
+            <button class="products__card-btn" type="submit">Add</button>
+        </form>
+        <!--  -->
+        <form class="form form-change">
+            <div class="form__close form-change-close">X</div>
+            <input required name="title" type="text" class="form__input" placeholder="Product name">
+            <input required name="price" type="number" class="form__input" placeholder="Product price">
+            <input required name="memory" type="number" class="form__input" placeholder="Product memory">
+            <input required name="image" type="text" class="form__input" placeholder="Product image">
+            <select form= "form__input", name="category">
+                <option value="Accessories">Accessories</option>
+                <option value="Chargers adapters">Chargers adapters</option>
+                <option value="Iphone's">Iphone's</option>
+                <option value="Watches">Watches</option>
+            </select>
             <button class="products__card-btn" type="submit">Add</button>
         </form>
     </div>
 </main>
+
 
 <footer class="footer">
     <div class="container">

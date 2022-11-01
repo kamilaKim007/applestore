@@ -139,12 +139,30 @@ body {
     border: none;
 }
 
-
 .products__btns {
     margin-top: 32px;
     display: flex;
     justify-content: flex-end;
     column-gap: 10px;
+}
+
+.products-list{
+    display: flex;
+    column-gap: 20px;
+}
+
+.products-item{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.products-item:hover{
+    color: blue;
+    transition: 0.2s;
+}
+
+.products-item.products-item-active{
+    color: blue;
 }
 
 .footer__nav {
