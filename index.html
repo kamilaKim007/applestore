@@ -40,12 +40,12 @@
                 <li class="header__item">
                     Connect
                 </li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-                    <g fill="none">
-                        <path d="M24 0H0v24h24z"/>
-                        <path fill="white" d="M20 5a1 1 0 1 1 0 2h-1l-.003.071l-.933 13.071A2 2 0 0 1 16.069 22H7.93a2 2 0 0 1-1.995-1.858l-.933-13.07A1.017 1.017 0 0 1 5 7H4a1 1 0 0 1 0-2h16Zm-6-3a1 1 0 1 1 0 2h-4a1 1 0 0 1 0-2h4Z"/>
-                    </g>
-                </svg>
+                
+                <li class="header__item header__item_cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z"/><path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"/></g></svg>
+                    <sup class="header__list-cart"></sup>
+                    <span class="header__list-price"></span>
+                </li>
             </ul>
             
 
@@ -73,7 +73,6 @@
                         <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.7741 6.59406L1.61428 11.7537C1.28605 12.0821 0.753887 12.0821 0.425819 11.7537C0.097725 11.4256 0.097725 10.8935 0.425819 10.5654L4.99146 5.99991L0.425952 1.43457C0.0978577 1.10635 0.0978577 0.574263 0.425952 0.24617C0.754046 -0.0820565 1.28618 -0.0820565 1.61441 0.24617L6.77423 5.4059C6.93828 5.57002 7.02021 5.7849 7.02021 5.99989C7.02021 6.21498 6.93812 6.43002 6.7741 6.59406Z" fill="#1890FF"></path>
                         </svg>
-                             <label>
                     </p>
                 </div>
 
@@ -138,7 +137,7 @@
             <input required name="price" type="number" class="form__input" placeholder="Product price">
             <input required name="memory" type="number" class="form__input" placeholder="Product memory">
             <input required name="image" type="text" class="form__input" placeholder="Product image">
-            <select form= "form__input", name="category">
+            <select form= "form__input" name="category">
                 <option value="Accessories">Accessories</option>
                 <option value="Chargers adapters">Chargers adapters</option>
                 <option value="Iphone's">Iphone's</option>
@@ -148,6 +147,37 @@
         </form>
     </div>
 </main>
+
+
+<div class="basket">
+    <h2 class="basket-title">Корзина</h2>
+    <div class="basket-content">
+        <div class="basket-row">
+            <!-- <div class="basket-card">
+                <img class="basket-card-img" src="/src/images" alt="">
+            <div class="basket-card-center">
+                <h2 class="basket-card-title">women shoes</h2>
+                <p class="basket-card-price">4500 сом</p>
+                <div>
+                    <button class="basket-card-plus">+</button><span>3</span><button class="basket-card-minus">-</button>
+                </div>
+            </div>
+            <button class="basket-card-btn">X</button>
+            </div> -->
+        </div>
+        <div class="basket-end">
+            <div class="basket-end-row">
+                <h3 class="basket-end-title">Итого: </h3>
+                <span class="basket-end-value total"></span>
+            </div>
+            <div class="basket-end-row">
+                <h3 class="basket-end-title">Налог 5%: </h3>
+                <span class="basket-end-value sale"></span>
+            </div>
+            <button class="basket-end-btn">Оформить заказ</button>
+        </div>
+    </div>
+</div>
 
 
 <footer class="footer">

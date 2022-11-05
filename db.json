@@ -9,14 +9,6 @@
       "category": "Iphone's"
     },
     {
-      "id": 2,
-      "title": "Iphone 12 Pro",
-      "price": 1100,
-      "memory": 256,
-      "image": "https://th.bing.com/th/id/OIP.1EkDbhtuD0YW-h1G3XowXAHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7",
-      "category": "Iphone's"
-    },
-    {
       "id": 3,
       "title": "Iphone 11",
       "price": 1000,
